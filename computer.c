@@ -48,6 +48,7 @@ int main()
 
             if(player == 1)
             {
+                player_choice:
                 printf("%s: \n", player1);
                 scanf("%d",&choice);
             }
@@ -97,6 +98,7 @@ int main()
                 printf("Invalid value \n");
                 player--;
                 getch();
+                goto player_choice;
             }
             i = checkforwin();
             player++;
