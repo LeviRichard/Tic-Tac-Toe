@@ -272,7 +272,7 @@ int checkforcorner()
     // Check for an available corner and center
     if(arr[5]=='5')
         return 5;
-    else if(arr[7]='X')
+    else if(arr[7]=='X')
         return 4;
     else if(arr[1]=='1')
         return 1;
